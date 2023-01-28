@@ -1,0 +1,38 @@
+@import url("reset.css");
+
+
+div {
+   color:red;
+}
+
+
+
+h2 {
+   color:blue;
+}
+
+.list {
+   color: yellowgreen;
+}
+
+#h2-4 {
+   color: blueviolet;
+}
+
+p.list {
+   color: black;
+}
+
+
+
+ .list.zmist {
+   color: aqua;
+}
+
+.text {
+   color: beige;
+}
+
+.list > li {
+   color: red;
+}

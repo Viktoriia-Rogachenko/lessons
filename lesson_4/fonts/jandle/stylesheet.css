@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'jandle';
+    src: url('jandle.woff2') format('woff2'),
+        url('jandle.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

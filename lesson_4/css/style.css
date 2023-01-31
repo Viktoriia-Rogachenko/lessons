@@ -1,0 +1,57 @@
+@import url("reset.css");
+
+@import url(https://fonts.googleapis.com/css?family=Oswald:regular,500,600,700&display=swap);
+@import url(https://fonts.googleapis.com/css?family=regular,700,900&display=swap);
+
+@font-face {
+   font-family: 'CircularStd';
+   src: url('../fonts/CircularStd-Bold.woff2') format('woff2'), url('../fonts/CircularStd-Bold.woff') format('woff');
+   font-weight: bold;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'CircularStd';
+   src: url('../fonts/CircularStd-Bold.woff2') format('woff2'), url('../fonts/CircularStd-Bold.woff') format('woff');
+   font-weight: 500;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'jandle';
+   src: url('../fonts/jandle/jandle.woff2') format('woff2'), url('../fonts/jandle/jandle.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+
+body {
+   font-family: "oswald";
+   /* font-family: CircularStd; */
+   /* font-family: jandle; */
+   font-size: 20px;
+   font-weight: 400;
+   color: rgba(189, 189, 189, 1);
+}
+
+.title {
+font-family: "CircularStd";
+font-size: 32px;
+font-style: italic;
+text-align: center;
+text-transform: uppercase;
+letter-spacing: 8px;
+color: black;
+}
+
+.text {
+   text-align: justify;
+   text-decoration: underline;
+   text-shadow: 1px 1px 3px rgb(48, 9, 115), -2px -2px 5px rgb(7, 186, 16);
+   line-height: 3;
+   text-indent: 30px;
+   word-spacing: 15px
+}
